@@ -1,0 +1,1314 @@
+Dependencies for Project 'GD32303C_START', Target 'GD32303C_START': (DO NOT MODIFY !)
+F (..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM\startup_gd32f30x_xd.s)(0x63B4E83A)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "GD32F30X_XD SETA 1"--list .\list\startup_gd32f30x_xd.lst --xref -o .\output\startup_gd32f30x_xd.o --depend .\output\startup_gd32f30x_xd.d)
+F (..\system_gd32f30x.c)(0x6476F619)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\system_gd32f30x.o --omf_browse .\output\system_gd32f30x.crf --depend .\output\system_gd32f30x.d)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_adc.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_adc.o --omf_browse .\output\gd32f30x_adc.crf --depend .\output\gd32f30x_adc.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_bkp.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_bkp.o --omf_browse .\output\gd32f30x_bkp.crf --depend .\output\gd32f30x_bkp.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_can.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_can.o --omf_browse .\output\gd32f30x_can.crf --depend .\output\gd32f30x_can.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (C:\E\keil\install\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_crc.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_crc.o --omf_browse .\output\gd32f30x_crc.crf --depend .\output\gd32f30x_crc.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_ctc.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_ctc.o --omf_browse .\output\gd32f30x_ctc.crf --depend .\output\gd32f30x_ctc.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_dac.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_dac.o --omf_browse .\output\gd32f30x_dac.crf --depend .\output\gd32f30x_dac.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_dbg.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_dbg.o --omf_browse .\output\gd32f30x_dbg.crf --depend .\output\gd32f30x_dbg.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_dma.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_dma.o --omf_browse .\output\gd32f30x_dma.crf --depend .\output\gd32f30x_dma.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (C:\E\keil\install\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_enet.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_enet.o --omf_browse .\output\gd32f30x_enet.crf --depend .\output\gd32f30x_enet.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (C:\E\keil\install\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_exmc.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_exmc.o --omf_browse .\output\gd32f30x_exmc.crf --depend .\output\gd32f30x_exmc.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_exti.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_exti.o --omf_browse .\output\gd32f30x_exti.crf --depend .\output\gd32f30x_exti.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_fmc.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_fmc.o --omf_browse .\output\gd32f30x_fmc.crf --depend .\output\gd32f30x_fmc.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_fwdgt.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_fwdgt.o --omf_browse .\output\gd32f30x_fwdgt.crf --depend .\output\gd32f30x_fwdgt.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_gpio.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_gpio.o --omf_browse .\output\gd32f30x_gpio.crf --depend .\output\gd32f30x_gpio.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_i2c.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_i2c.o --omf_browse .\output\gd32f30x_i2c.crf --depend .\output\gd32f30x_i2c.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_misc.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_misc.o --omf_browse .\output\gd32f30x_misc.crf --depend .\output\gd32f30x_misc.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_pmu.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_pmu.o --omf_browse .\output\gd32f30x_pmu.crf --depend .\output\gd32f30x_pmu.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_rcu.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_rcu.o --omf_browse .\output\gd32f30x_rcu.crf --depend .\output\gd32f30x_rcu.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_rtc.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_rtc.o --omf_browse .\output\gd32f30x_rtc.crf --depend .\output\gd32f30x_rtc.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_sdio.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_sdio.o --omf_browse .\output\gd32f30x_sdio.crf --depend .\output\gd32f30x_sdio.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_spi.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_spi.o --omf_browse .\output\gd32f30x_spi.crf --depend .\output\gd32f30x_spi.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_timer.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_timer.o --omf_browse .\output\gd32f30x_timer.crf --depend .\output\gd32f30x_timer.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_usart.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_usart.o --omf_browse .\output\gd32f30x_usart.crf --depend .\output\gd32f30x_usart.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Source\gd32f30x_wwdgt.c)(0x63B4E838)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_wwdgt.o --omf_browse .\output\gd32f30x_wwdgt.crf --depend .\output\gd32f30x_wwdgt.d)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+F (..\..\Hardware\rs485\rs485.c)(0x649956A7)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\rs485.o --omf_browse .\output\rs485.crf --depend .\output\rs485.d)
+I (..\..\Hardware\rs485\rs485.h)(0x647819A4)
+I (..\..\Projects\main.h)(0x649A44FC)
+I (C:\E\keil\install\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\E\keil\install\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\Projects\systick.h)(0x64919D48)
+I (..\..\Hardware\spi\spi.h)(0x6476A0A5)
+I (..\..\Hardware\sca3300\sca3300.h)(0x64794F19)
+I (C:\E\keil\install\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\..\Hardware\dac\dac.h)(0x6497EB2A)
+I (..\..\Hardware\iic\iic.h)(0x64A25EEE)
+I (..\..\Hardware\can\can.h)(0x64996322)
+I (..\..\Hardware\time2\time2.h)(0x649AA154)
+I (..\..\Hardware\ICM-20948\icm20948.h)(0x64A266EC)
+F (..\..\Hardware\sca3300\sca3300.c)(0x649AAE90)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\sca3300.o --omf_browse .\output\sca3300.crf --depend .\output\sca3300.d)
+I (..\..\Hardware\sca3300\sca3300.h)(0x64794F19)
+I (..\..\Projects\main.h)(0x649A44FC)
+I (C:\E\keil\install\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\E\keil\install\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\Projects\systick.h)(0x64919D48)
+I (..\..\Hardware\rs485\rs485.h)(0x647819A4)
+I (..\..\Hardware\spi\spi.h)(0x6476A0A5)
+I (C:\E\keil\install\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\..\Hardware\dac\dac.h)(0x6497EB2A)
+I (..\..\Hardware\iic\iic.h)(0x64A25EEE)
+I (..\..\Hardware\can\can.h)(0x64996322)
+I (..\..\Hardware\time2\time2.h)(0x649AA154)
+I (..\..\Hardware\ICM-20948\icm20948.h)(0x64A266EC)
+F (..\..\Hardware\spi\spi.c)(0x649A901D)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\spi.o --omf_browse .\output\spi.crf --depend .\output\spi.d)
+I (..\..\Hardware\spi\spi.h)(0x6476A0A5)
+I (..\..\Projects\main.h)(0x649A44FC)
+I (C:\E\keil\install\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\E\keil\install\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\Projects\systick.h)(0x64919D48)
+I (..\..\Hardware\rs485\rs485.h)(0x647819A4)
+I (..\..\Hardware\sca3300\sca3300.h)(0x64794F19)
+I (C:\E\keil\install\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\..\Hardware\dac\dac.h)(0x6497EB2A)
+I (..\..\Hardware\iic\iic.h)(0x64A25EEE)
+I (..\..\Hardware\can\can.h)(0x64996322)
+I (..\..\Hardware\time2\time2.h)(0x649AA154)
+I (..\..\Hardware\ICM-20948\icm20948.h)(0x64A266EC)
+F (..\..\Hardware\ICM-20948\icm20948.c)(0x64A38981)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\icm20948.o --omf_browse .\output\icm20948.crf --depend .\output\icm20948.d)
+I (..\..\Hardware\ICM-20948\icm20948.h)(0x64A266EC)
+I (..\..\Projects\main.h)(0x649A44FC)
+I (C:\E\keil\install\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\E\keil\install\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\Projects\systick.h)(0x64919D48)
+I (..\..\Hardware\rs485\rs485.h)(0x647819A4)
+I (..\..\Hardware\spi\spi.h)(0x6476A0A5)
+I (..\..\Hardware\sca3300\sca3300.h)(0x64794F19)
+I (C:\E\keil\install\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\..\Hardware\dac\dac.h)(0x6497EB2A)
+I (..\..\Hardware\iic\iic.h)(0x64A25EEE)
+I (..\..\Hardware\can\can.h)(0x64996322)
+I (..\..\Hardware\time2\time2.h)(0x649AA154)
+F (..\..\Hardware\iic\iic.c)(0x649AB666)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\iic.o --omf_browse .\output\iic.crf --depend .\output\iic.d)
+I (..\..\Hardware\iic\iic.h)(0x64A25EEE)
+I (..\..\Projects\main.h)(0x649A44FC)
+I (C:\E\keil\install\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\E\keil\install\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\Projects\systick.h)(0x64919D48)
+I (..\..\Hardware\rs485\rs485.h)(0x647819A4)
+I (..\..\Hardware\spi\spi.h)(0x6476A0A5)
+I (..\..\Hardware\sca3300\sca3300.h)(0x64794F19)
+I (C:\E\keil\install\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\..\Hardware\dac\dac.h)(0x6497EB2A)
+I (..\..\Hardware\can\can.h)(0x64996322)
+I (..\..\Hardware\time2\time2.h)(0x649AA154)
+I (..\..\Hardware\ICM-20948\icm20948.h)(0x64A266EC)
+F (..\..\Hardware\dac\dac.c)(0x649AA448)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\dac.o --omf_browse .\output\dac.crf --depend .\output\dac.d)
+I (..\..\Hardware\dac\dac.h)(0x6497EB2A)
+I (..\..\Projects\main.h)(0x649A44FC)
+I (C:\E\keil\install\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\E\keil\install\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\Projects\systick.h)(0x64919D48)
+I (..\..\Hardware\rs485\rs485.h)(0x647819A4)
+I (..\..\Hardware\spi\spi.h)(0x6476A0A5)
+I (..\..\Hardware\sca3300\sca3300.h)(0x64794F19)
+I (C:\E\keil\install\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\..\Hardware\iic\iic.h)(0x64A25EEE)
+I (..\..\Hardware\can\can.h)(0x64996322)
+I (..\..\Hardware\time2\time2.h)(0x649AA154)
+I (..\..\Hardware\ICM-20948\icm20948.h)(0x64A266EC)
+F (..\..\Hardware\can\can.c)(0x64996798)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\can.o --omf_browse .\output\can.crf --depend .\output\can.d)
+I (..\..\Hardware\can\can.h)(0x64996322)
+I (..\..\Projects\main.h)(0x649A44FC)
+I (C:\E\keil\install\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\E\keil\install\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\Projects\systick.h)(0x64919D48)
+I (..\..\Hardware\rs485\rs485.h)(0x647819A4)
+I (..\..\Hardware\spi\spi.h)(0x6476A0A5)
+I (..\..\Hardware\sca3300\sca3300.h)(0x64794F19)
+I (C:\E\keil\install\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\..\Hardware\dac\dac.h)(0x6497EB2A)
+I (..\..\Hardware\iic\iic.h)(0x64A25EEE)
+I (..\..\Hardware\time2\time2.h)(0x649AA154)
+I (..\..\Hardware\ICM-20948\icm20948.h)(0x64A266EC)
+F (..\..\Hardware\time2\time2.c)(0x649AA158)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\time2.o --omf_browse .\output\time2.crf --depend .\output\time2.d)
+I (..\..\Hardware\time2\time2.h)(0x649AA154)
+I (..\..\Projects\main.h)(0x649A44FC)
+I (C:\E\keil\install\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\E\keil\install\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\..\Projects\systick.h)(0x64919D48)
+I (..\..\Hardware\rs485\rs485.h)(0x647819A4)
+I (..\..\Hardware\spi\spi.h)(0x6476A0A5)
+I (..\..\Hardware\sca3300\sca3300.h)(0x64794F19)
+I (C:\E\keil\install\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\..\Hardware\dac\dac.h)(0x6497EB2A)
+I (..\..\Hardware\iic\iic.h)(0x64A25EEE)
+I (..\..\Hardware\can\can.h)(0x64996322)
+I (..\..\Hardware\ICM-20948\icm20948.h)(0x64A266EC)
+F (..\main.c)(0x64A3AB97)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (..\main.h)(0x649A44FC)
+I (C:\E\keil\install\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\E\keil\install\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\systick.h)(0x64919D48)
+I (..\..\Hardware\rs485\rs485.h)(0x647819A4)
+I (..\..\Projects\main.h)(0x649A44FC)
+I (..\..\Hardware\spi\spi.h)(0x6476A0A5)
+I (..\..\Hardware\sca3300\sca3300.h)(0x64794F19)
+I (C:\E\keil\install\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\..\Hardware\dac\dac.h)(0x6497EB2A)
+I (..\..\Hardware\iic\iic.h)(0x64A25EEE)
+I (..\..\Hardware\can\can.h)(0x64996322)
+I (..\..\Hardware\time2\time2.h)(0x649AA154)
+I (..\..\Hardware\ICM-20948\icm20948.h)(0x64A266EC)
+F (..\systick.c)(0x649942C0)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\systick.o --omf_browse .\output\systick.crf --depend .\output\systick.d)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\systick.h)(0x64919D48)
+F (..\gd32f30x_it.c)(0x64759D3F)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\Projects -I ..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include -I ..\..\GD32F30x_Firmware_Library\CMSIS -I ..\..\GD32F30x_Firmware_Library\CMSIS\GD\GD32F30x\Source\ARM -I ..\..\Hardware\rs485 -I ..\..\Hardware\spi -I ..\..\Hardware\sca3300 -I ..\..\Hardware\dac -I ..\..\Hardware\iic -I ..\..\Hardware\can -I ..\..\Hardware\time2 -I ..\..\Hardware\ICM-20948-I.\RTE\_GD32303C_START-IC:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include-IC:\E\keil\install\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F30X_XD -DUSE_STDPERIPH_DRIVER -DGD32F30X_XD-o .\output\gd32f30x_it.o --omf_browse .\output\gd32f30x_it.crf --depend .\output\gd32f30x_it.d)
+I (..\gd32f30x_it.h)(0x63B4E83B)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\gd32f30x.h)(0x61AEC528)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4.h)(0x63B4E83A)
+I (C:\E\keil\install\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmInstr.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cmFunc.h)(0x63B4E83A)
+I (..\..\GD32F30x_Firmware_Library\CMSIS\core_cm4_simd.h)(0x63B4E83A)
+I (C:\E\keil\install\GigaDevice\GD32F30x_DFP\2.2.3\Device\Include\system_gd32f30x.h)(0x61AEC528)
+I (..\..\Projects\gd32f30x_libopt.h)(0x63B4E83B)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_can.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_crc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_ctc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dac.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dbg.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fmc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_fwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_i2c.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_bkp.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_rtc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_sdio.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_spi.h)(0x649A8291)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x63B4E838)
+I (..\..\GD32F30x_Firmware_Library\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x63B4E838)
+I (..\systick.h)(0x64919D48)
